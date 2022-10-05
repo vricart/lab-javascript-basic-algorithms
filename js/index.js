@@ -1,6 +1,9 @@
 // console.log("I'm ready!");
 
 
+
+// Vicky & Carol made this! yayy ＼(≧▽≦)／
+
 // Iteration 1: Names and Input
 
 const hacker1 = "Vicky";
@@ -34,7 +37,7 @@ for(let i = 0; i < hacker1.length; i++ ){
 }
 console.log(spacedName);
 
-//Iteration 3.2
+// //Iteration 3.2
 
 let spacedName2 = "";
 for (let i = hacker2.length -1; i >= 0; i--) {
@@ -91,3 +94,42 @@ for (let i = 0; i < hacker1.length; i++){
     }
 }
 }
+
+
+
+
+
+// //Bonus 1
+
+// let lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet erat et venenatis rhoncus. Nullam tempus eget lacus et hendrerit. Suspendisse feugiat tristique elit, maximus placerat libero elementum sit amet. Curabitur a viverra enim.";
+// let loremEt = "et";
+
+// let numWords = 1;
+// let numEt = 0;
+
+// //Using spaces to count how many words but increased 1 to account for the first word. 
+// for (let i = 0; i < lorem.length; i++){
+//     if (lorem[i] === " "){
+//         numWords += 1
+//     } else if (lorem[i] + lorem[i+1] === loremEt) {
+//         numEt += 1;
+//     }
+// }
+// console.log(numWords);
+// console.log(numEt);
+
+// //Bonus 2
+
+// let Palindrome = "step on no pets";
+// let palindromeReversed ="";
+
+// for (let j = Palindrome.length -1; j >= 0; j--) {
+//     let char = Palindrome[j];
+//     palindromeReversed += char;
+// }
+
+// if (Palindrome === palindromeReversed) {
+//     console.log("Palindrome found!");
+// } else {
+//     console.log("No palindrome, sad life")
+// }
